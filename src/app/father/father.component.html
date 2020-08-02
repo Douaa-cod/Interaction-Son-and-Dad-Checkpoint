@@ -1,0 +1,7 @@
+<div [style.background-color]="color">
+  <h4>Father Section</h4>
+  <p>This is the father section</p>
+</div>
+<div>
+  <app-child (eventSendData)="getDataFromSon($event)"></app-child>
+</div>
